@@ -19,9 +19,9 @@ jobs:
         apt-get update
         apt-get install -y build-essential yasm nasm cmake git curl wget pkg-config \
           libx264-dev libx265-dev libvpx-dev libopus-dev libvorbis-dev \
-          libmp3lame-dev libaacplus-dev libass-dev libfreetype6-dev \
+          libmp3lame-dev libass-dev libfreetype6-dev \
           libfribidi-dev libtheora-dev libwavpack-dev libspeex-dev \
-          libflac-dev libopenjpeg-dev libwebp-dev
+          libflac-dev libwebp-dev
     
     - name: Download FFmpeg source
       run: |
@@ -55,7 +55,6 @@ jobs:
           --enable-libopus \
           --enable-libvorbis \
           --enable-libmp3lame \
-          --enable-libaacplus \
           --enable-libass \
           --enable-libfreetype
         
@@ -88,7 +87,6 @@ jobs:
           --enable-libopus \
           --enable-libvorbis \
           --enable-libmp3lame \
-          --enable-libaacplus \
           --enable-libass \
           --enable-libfreetype
         
