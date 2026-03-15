@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- FFmpeg logo simplified -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,40 L30,68 L35,68 L35,55 L45,55 L45,50 L35,50 L35,45 L48,45 L48,40 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,40 L52,68 L65,68 C70,68 73,65 73,60 L73,48 C73,43 70,40 65,40 Z M57,45 L62,45 C64,45 65,46 65,48 L65,60 C65,62 64,63 62,63 L57,63 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,72 L48,72 L48,77 L43,77 L43,80 L53,80 L53,72 L63,72 L63,77 L58,77 L58,80 L68,80 L68,72 L78,72 L78,77 L73,77 L73,80 L83,80 L83,72 L38,72 Z"/>
+</vector>
